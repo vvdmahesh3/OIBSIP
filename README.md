@@ -4,7 +4,7 @@ This repository contains all projects completed during my AICTE Oasis Infobyte I
 
 👨‍💻 Name: VVD Mahesh Peruri
 🎯 Domain: Data Science / AI
-📅 Duration: May 15 2026 - June 15 2026
+📅 Duration: May 15 2026 - June 25 2026
 
 ## Projects
 
