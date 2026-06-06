@@ -1,0 +1,5 @@
+Findings & Insights:
+- During the Covid period, unemployment rose significantly, especially from March 2020 to May 2020.
+- State Puducherry / Haryana / Tripura showed the highest unemployment rates in certain periods.
+- States like Meghalaya and Assam showed relatively lower unemployment.
+- There is a strong negative correlation between Estimated Employed and Estimated Unemployment Rate.
