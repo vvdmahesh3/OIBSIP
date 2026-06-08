@@ -1,0 +1,21 @@
+--- Model Evaluation ---
+Accuracy: 0.9659
+
+Confusion Matrix:
+[[965   0]
+ [ 38 112]]
+
+Classification Report:
+                precision    recall  f1-score   support
+
+Not Spam (Ham)       0.96      1.00      0.98       965
+          Spam       1.00      0.75      0.85       150
+
+      accuracy                           0.97      1115
+     macro avg       0.98      0.87      0.92      1115
+  weighted avg       0.97      0.97      0.96      1115
+
+
+--- Custom Testing ---
+Input: Congratulations! You won ₹10000
+Prediction: Spam
