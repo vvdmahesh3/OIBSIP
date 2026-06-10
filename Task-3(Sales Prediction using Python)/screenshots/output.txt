@@ -1,0 +1,46 @@
+--- Part 2: EDA ---
+
+--- df.head() ---
+      TV  Radio  Newspaper  Sales
+0  230.1   37.8       69.2   22.1
+1   44.5   39.3       45.1   10.4
+2   17.2   45.9       69.3    9.3
+3  151.5   41.3       58.5   18.5
+4  180.8   10.8       58.4   12.9
+
+--- df.info() ---
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 200 entries, 0 to 199
+Data columns (total 4 columns):
+ #   Column     Non-Null Count  Dtype  
+---  ------     --------------  -----  
+ 0   TV         200 non-null    float64
+ 1   Radio      200 non-null    float64
+ 2   Newspaper  200 non-null    float64
+ 3   Sales      200 non-null    float64
+dtypes: float64(4)
+memory usage: 6.4 KB
+
+--- df.describe() ---
+               TV       Radio   Newspaper       Sales
+count  200.000000  200.000000  200.000000  200.000000
+mean   147.042500   23.264000   30.554000   14.022500
+std     85.854236   14.846809   21.778621    5.217457
+min      0.700000    0.000000    0.300000    1.600000
+25%     74.375000    9.975000   12.750000   10.375000
+50%    149.750000   22.900000   25.750000   12.900000
+75%    218.825000   36.525000   45.100000   17.400000
+max    296.400000   49.600000  114.000000   27.000000
+
+--- Part 5: Prediction ---
+Input: TV=100, Radio=20, Newspaper=30
+Predicted Sales: 11.32
+
+--- Part 6: Evaluation ---
+R2 Score: 0.8994
+Mean Squared Error: 3.1741
+Mean Absolute Error: 1.4608
+
+--- Part 7: Conclusion ---
+TV advertising contributes significantly more towards sales than newspaper advertising.
+This is evident from the high correlation coefficient in the heatmap and the visual trend in the scatterplots.
