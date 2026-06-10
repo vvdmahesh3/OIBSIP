@@ -23,6 +23,12 @@ This repository contains all the tasks and projects I completed during my Data S
 - **Algorithm:** Naive Bayes (`MultinomialNB`).
 - **Directory:** [Task-2: Email Spam Detection](./Task-2%28Email%20spam%20Detection%20with%20Machine%20Learning%29)
 
+### 📈 Task 3: Sales Prediction Using Python
+**Objective:** Build a Machine Learning model to predict future sales based on historical advertising budgets across TV, Radio, and Newspaper platforms.
+- **Concepts Used:** Feature Engineering, Regression Analysis, Model Evaluation (MSE, MAE, R2 Score).
+- **Algorithm:** Linear Regression.
+- **Directory:** [Task-3: Sales Prediction](./Task-3%28Sales%20Prediction%20using%20Python%29)
+
 ---
 
 ## 🛠️ Skills & Technologies Leveraged
